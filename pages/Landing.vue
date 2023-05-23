@@ -29,7 +29,7 @@ const logoUrl = computed(() => {
                     v-styleclass="{
                         selector: '@next',
                         enterClass: 'hidden',
-                        leaveToClass: 'hidden',
+                        leaveToClass: 'hid  den',
                         hideOnOutsideClick: true
                     }"
                     class="cursor-pointer block lg:hidden text-700 p-ripple"

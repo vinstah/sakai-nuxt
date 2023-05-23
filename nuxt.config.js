@@ -4,13 +4,13 @@ export default defineNuxtConfig({
 
     app: {
         head: {
-            title: 'Sakai Vue',
+            title: 'Sakai fue',
             link: [
                 {
                     id: 'theme-css',
                     rel: 'stylesheet',
                     type: 'text/css',
-                    href: '/themes/lara-light-indigo/theme.css'
+                    href: '/themes/lara-dark-indigo/theme.css'
                 }
             ]
         }
@@ -30,7 +30,7 @@ export default defineNuxtConfig({
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'UA-93461466-1');
+              gtag('config', 'UA-');
           `
         }
     ],

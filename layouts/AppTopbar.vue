@@ -23,7 +23,7 @@ const onTopBarMenuButton = () => {
 
 const onSettingsClick = () => {
     topbarMenuActive.value = false;
-    router.push('/utilities/documentation');
+    router.push('/documentation');
 };
 
 const topbarMenuClasses = computed(() => {
@@ -62,10 +62,10 @@ const isOutsideClicked = (event) => {
 
 <template>
     <div class="layout-topbar">
-        <router-link to="/" class="layout-topbar-logo">
+        <NuxtLink to="/" class="layout-topbar-logo">
             <img :src="logoUrl" alt="logo" />
             <span>SAKAI</span>
-        </router-link>
+        </NuxtLink>
 
         <button class="p-link layout-menu-button layout-topbar-button" @click="onMenuToggle()">
             <i class="pi pi-bars"></i>
